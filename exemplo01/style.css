@@ -1,0 +1,49 @@
+/* Definindo o estilo para o corpo da pagina*/
+body{
+    font-family: Arial, Helvetica, sans-serif;/*define a fonte texto*/
+    font-size: 16px;/*Define o tamanho da fonte*/
+    color: #333;/*Define a cor do texto*/
+    background-color: #C59CFA;/*Define a cor do fundo*/
+    margin: 0;/*Remove a margem padrão*/
+    padding: 0;/*Remove o preenchimento padrão*/
+}
+
+
+header{
+    background-color: #6C5BFC;
+    color: #fff;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;/* remove a estilização padrão da lista*/
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;/*coloca o menu um do lado do outro*/
+    margin-right: 20px; /*da um espaço entre os menu*/
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;/*tirar o hiperlink*/
+}
+main{
+    padding: 20px;
+    min-height: calc(100vh - 200px);
+}
+section{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #5B7EFC;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}

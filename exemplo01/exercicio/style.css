@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #003399;
+    color: #000000;
+    padding: 20px;
+}
+
+header h1{
+    padding-left: 200px;
+    margin: 0;
+}
+nav{
+    padding-left: 200px;
+    font-size: 30px;
+}
+nav ul{
+    list-style-type: none;/* remove a estilização padrão da lista*/
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    
+    display: inline;/*coloca o menu um do lado do outro*/
+    margin-right: 20px; /*da um espaço entre os menu*/
+
+}
+input  {
+display: inline;
+}
+main h1{
+    margin: 0;
+    padding: 0;
+}
+div ul li {
+    list-style-type: none;/* remove a estilização padrão da lista*/
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;/*tirar o hiperlink*/
+}
+main div ul li a{
+    text-decoration: none;/*tirar o hiperlink*/
+    color:#929292;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
